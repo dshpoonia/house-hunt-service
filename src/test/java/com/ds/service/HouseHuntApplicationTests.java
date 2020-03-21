@@ -1,4 +1,4 @@
-package com.ds.househuntservice;
+package com.ds.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
