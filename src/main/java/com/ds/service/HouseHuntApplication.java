@@ -6,10 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
 @EnableMongoRepositories(basePackages = "com.ds.dao")
+@ComponentScan(basePackages = "com.ds")
 public class HouseHuntApplication implements CommandLineRunner {
 
 	@Autowired

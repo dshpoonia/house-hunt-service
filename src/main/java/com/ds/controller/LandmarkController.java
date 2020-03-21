@@ -1,4 +1,4 @@
-package com.ds;
+package com.ds.controller;
 
 import com.ds.entity.Landmark;
 import com.ds.service.LandmarkService;
